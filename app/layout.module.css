@@ -1,0 +1,21 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 10rem auto;
+    grid-template-rows: 5rem auto;
+}
+
+.topLeft {
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.header {
+    grid-area: 1 / 2 / 1 / 2;
+}
+
+.left {
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.content {
+    grid-area: 2 / 2 / 2 / 2;
+}
